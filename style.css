@@ -1,0 +1,59 @@
+body
+{
+    margin: 0;
+    padding: 0; 
+    font-family: sans-serif;
+
+}
+/*----------Header CSS-------------------------*/
+
+/* the header deals with the postioning, dimensions, and shade of the background 
+  -linear-gradient will just give the background a hazier/smokier look to the background  */
+#header 
+{
+   height: 100vh; 
+     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(IMG_0792.jpeg); 
+      background-position: center;
+     background-size: cover; 
+     background-attachment: fixed;
+     
+}
+
+/* For user-box #1: this deals with positioning of the image amongst the background
+ */
+.user-box /* #1 */
+{
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position:absolute;
+}
+
+/* For user-box 2 this deals with the framing of the image and the color/thickness of the frame-borders
+ */
+ .user-box/* #2 */ img
+{
+  border-radius: 100%;
+  width: 250px; 
+  border: 3px solid #5c2618
+
+}
+
+/* user-box #3 deals with the colouring and thickness of the font 
+ */
+.user-box /* #3 */ h1
+{
+  color: cornsilk;
+  font-weight: bold;
+  margin: 1px
+
+}
+.user-box p
+{
+  color: whitesmoke;
+  font-size: unset;
+
+
+}
+
+
